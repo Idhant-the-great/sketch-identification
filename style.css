@@ -1,0 +1,27 @@
+body{
+    background-color:greenyellow;
+}
+h1{
+    color:red;
+    background-color: burlywood;
+    padding-left: 10%;
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 5s;
+    margin-top: 90px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+from{box-shadow: 1px 1px 30px rgb(0, 255, 242)};
+to{box-shadow: 1px 1px 30px rgb(0, 0, 0)};
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
